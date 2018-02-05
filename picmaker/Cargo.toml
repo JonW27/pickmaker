@@ -1,0 +1,6 @@
+[package]
+name = "picmaker"
+version = "0.1.0"
+authors = ["JonW27 <18wongj@gmail.com>"]
+
+[dependencies]
