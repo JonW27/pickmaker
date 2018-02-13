@@ -6,10 +6,10 @@ fn main() {
     let mut r = 0;
     let mut g = 0;
     let mut b = 0;
-    for y in 0..500 {
-    	for x in 0..500 {
-              let pixel = String::new();
-              let pixel = r.to_string() + " " + &g.to_string() + " " + &b.to_string();
+    for _y in 0..500 {
+    	for _x in 0..500 {
+              let mut pixel = String::new();
+              pixel = r.to_string() + " " + &g.to_string() + " " + &b.to_string();
               data.push_str(&pixel);
               r += 1;
               g += 1;
